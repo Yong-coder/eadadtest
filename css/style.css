@@ -389,22 +389,26 @@
     border-right: none;
 }
 
+.studentfee {
+  text-align: center;
+  margin: 10px;
+}
+
 .studentfee img {
   max-width: 100%;
   height: auto;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
   .studentfee {
-    text-align: center;
+    margin: 5px;
+  }
+  
+  .studentfee img {
+    padding: 5px;
   }
 }
 
-@media (max-width: 480px) {
-  .studentfee {
-   width: 200px;
-  height: 200px;
-  }
-}
 
 
