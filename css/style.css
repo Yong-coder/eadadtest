@@ -400,10 +400,10 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 480px) {
   .studentfee {
-     max-width: 100%;
-  height: auto;
+   width: 200px
+  height: 200px;
   }
 }
 
